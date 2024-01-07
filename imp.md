@@ -28,3 +28,8 @@ go to github dev settings and create a app and find the env variables
 go to google console create project then do the consent screen and then go to credentials o auth credentials and find them and add it to the env files
 obv we dont want a confirmation if the user signs through gmail or github so we need to mark them verified right
 for that add a event in the auth.ts and on linkedaccount just mark the users email as verified
+
+##
+
+Solving the wierd error when logged in with github and google with sameaccounts ->
+just add pages in auth.ts
