@@ -33,3 +33,11 @@ for that add a event in the auth.ts and on linkedaccount just mark the users ema
 
 Solving the wierd error when logged in with github and google with sameaccounts ->
 just add pages in auth.ts
+
+##
+
+Token issuing when logged in with credentials
+
+Create functions in data folder for getting token with email and getting token with token
+Create generateVerificationToken inside lib folder to generate token using uuid and also creating a model for it in prisma and pushing it
+Also in auth.ts under callbacks do the same with sign in if provider is credentials if user is not verified dont let them sign in
