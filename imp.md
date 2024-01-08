@@ -45,3 +45,9 @@ Also in auth.ts under callbacks do the same with sign in if provider is credenti
 create a accoutn on resend email service
 create a function in lib folder for mailing
 use it on the login and register actions
+
+# Aftermath of email
+
+create the same page where the link from the email goes
+then create a new verification form mark the route as public route
+create a new server action for the verification
